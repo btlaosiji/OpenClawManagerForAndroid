@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策</title>
+    <style>
+        body { font-family: sans-serif; padding: 16px; line-height: 1.6; color: #333; max-width: 720px; margin: 0 auto; }
+        h1 { font-size: 1.25rem; margin-top: 1.5em; }
+        h2 { font-size: 1.1rem; margin-top: 1.2em; }
+        p { margin: 0.5em 0; }
+        ul { margin: 0.5em 0; padding-left: 1.5em; }
+    </style>
+</head>
+<body>
+    <h1>OpenClaw 管理 隐私政策</h1>
+    <p>本政策说明 OpenClaw 管理（下称「本应用」）如何对待您的信息。</p>
+
+    <h2>一、数据存储与处理</h2>
+    <p>本应用在您设备本地处理与存储以下信息：</p>
+    <ul>
+        <li><strong>Gateway 连接信息</strong>：您填写的 Gateway 地址（URL）与 Token，在连接成功后会被保存到本机存储（如 SharedPreferences），仅用于下次启动时自动填充，不会上传至我们或任何第三方服务器。</li>
+        <li><strong>对话与配置</strong>：与 Gateway 的对话记录、模型选择、API Key 等仅在您设备与您指定的 Gateway 之间传输；本应用不会将上述内容发送到我们控制的服务器。</li>
+    </ul>
+
+    <h2>二、网络访问</h2>
+    <p>本应用会发起网络请求的场景包括：</p>
+    <ul>
+        <li><strong>连接 OpenClaw Gateway</strong>：您输入的 Gateway 地址（WebSocket），数据仅在您设备与您的 Gateway 之间传输。</li>
+        <li><strong>Skill 搜索</strong>：调用第三方 Top ClawHub Skills API（如 topclawhubskills.com）以展示可安装的 Skill 列表与复制安装命令。该请求可能包含搜索关键词，请参考该第三方的隐私政策。</li>
+    </ul>
+    <p>我们不会收集、存储或转发您的对话内容、API Key 或 Gateway Token 到本应用开发者控制的服务器。</p>
+
+    <h2>三、第三方服务</h2>
+    <p>使用 Skill 搜索功能时会访问第三方 API，其数据实践遵循该第三方政策。使用 Gateway 时，您配置的模型提供商（如 OpenAI、Gemini 等）的数据处理遵循各提供商政策。</p>
+
+    <h2>四、政策更新</h2>
+    <p>我们可能适时更新本隐私政策，更新版本将在应用内或发布渠道公布。继续使用本应用即视为接受更新后的政策。</p>
+
+    <p><strong>最后更新：2025 年 3 月</strong></p>
+</body>
+</html>
