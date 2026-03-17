@@ -2,7 +2,6 @@
 
 一个用于连接与管理 **OpenClaw Gateway** 的 Android 客户端（Jetpack Compose）。
 ![主页截图](screenshots/1.jpg)
-![主页截图](screenshots/2.jpg)
 ## 功能
 
 - **WebSocket 连接 Gateway**：支持 Token（可选）
